@@ -44,12 +44,12 @@
     - *František* - mnich, který pomáhá Romeovi a Julii
   ],
   about-author: [
-    Datum narození není přesně známo, odhaduje se *1564 -- 1616*.
+    Datum narození není přesně známý, narození a smrt se odhaduje *1564 -- 1616*.
 
     Narodil se ve Stratfordu nad Avonou v Anglii. Byl dramatikem, básníkem a hercem. Je považován za jednoho z největších spisovatelů anglické literatury a jeho díla jsou dodnes široce studována a inscenována po celém světě. Vystudoval gymnázium. V 18 letech se oženil s Anne Hathawayovou.
 
     - 1593 - 1594 -- divadla zavřena kvůli epidemii moru
-    stal se členem nové divadelní společnosti Služebnicí lorda komořího (Lord Chamberlain's Men), která se v roce 1599 přemístila do divadla the Globe
+    - Stal se členem nové divadelní společnosti Služebnicí lorda komořího (Lord Chamberlain's Men), která se v roce 1599 přemístila do divadla the Globe
     - 1613 - divadlo the Globe vyhořelo a společnost se přesouvá do divadla Blackfairs
       v tu dobu však Shakespeare odchází zpět za manželkou do svého rodiště, kde zůstává až do své smrti
     ==== Dílo
@@ -57,6 +57,11 @@
     - *Tragédie* -- Hamlet, Romeo a Julie, Othelo, Macbeth
     - *Historické hry* -- Jindřich IV., Jindřich VIII., Richard II.
     - *Sonety* -- básnická sbírka 154 sonetů; téma - láska, krása, politika a pomíjivost života a citů; sonety nemají název, ale jsou číslované; Shakespeare využívá pětistopý jambický verš;
+
+    Ve stejné době tvořili také například:
+    - *Giovanni Boccaccio* -- italský spisovatel, autor Dekameronu
+    - *Romain Rolland* -- francouzský spisovatel, autor Petr a Lucie
+    - *Václav Hájek z Libočan* -- český kronikář, autor Kroniky české
   ],
   additional-info: [
     Lze zmínit *katarzi* -- pocit očistění, který divák zažívá po sledování tragédie, kdy se ztotožní s hrdiny a prožije jejich utrpení. _Jakoby ten konec byl správný._
