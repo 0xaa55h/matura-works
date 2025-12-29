@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - predefined-template
   workflow_dispatch:
 
 jobs:

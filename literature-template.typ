@@ -3,25 +3,25 @@
   author: "Autor",
   year: 2023,
   characteristics: (
-    obsah: "",
-    utvary: "",
-    name-meaning: "",
-    tema: "",
+    obsah: [],
+    utvary: [],
+    name-meaning: [],
+    tema: [],
   ),
   literary-context: (
-    umelecke-smer: "",
-    historicke-souvislosti: "",
-    soucasnici: "",
-    autoruv-zivot: "",
-    dalsi-dila: "",
+    umelecke-smer: [],
+    historicke-souvislosti: [],
+    soucasnici: [],
+    autoruv-zivot: [],
+    dalsi-dila: [],
   ),
-  kompozice: "",
-  obsah-dila: "",
-  postavy: "",
-  vypravecsky-zpusob: "",
-  jazyk-dila: "",
-  ohlas-dila: "",
-  ctenar: "",
+  kompozice: [],
+  obsah-dila: [],
+  postavy: [],
+  vypravecsky-zpusob: [],
+  jazyk-dila: [],
+  ohlas-dila: [],
+  ctenar: [],
 ) = {
   set page(
     paper: "a4",
@@ -32,17 +32,13 @@
       bottom: 0.5cm,
     ),
   )
-  set text(font: "New Computer Modern")
-  show heading.where(level: 1): set text(size: 20pt, weight: "bold")
-  show heading.where(level: 2): set text(size: 16pt, weight: "bold", fill: red)
-  show heading.where(level: 3): set text(size: 14pt, weight: "bold", fill: red)
-  show heading.where(level: 5): set text(size: 10pt, weight: "regular")
+  set text(font: "New Computer Modern", size: 8pt)
+  show heading.where(level: 1): set text(size: 14pt, weight: "bold")
+  show heading.where(level: 2): set text(size: 12pt, weight: "bold", fill: red)
+  show heading.where(level: 3): set text(size: 10pt, weight: "bold", fill: red)
+  show heading.where(level: 5): set text(size: 8pt, weight: "regular")
 
-  place(
-    top + left,
-    scope: "parent",
-    float: true,
-    columns(2, [
+  columns(2, [
       = #title
       *#author* | *#year*
 
@@ -54,6 +50,7 @@
       ==== Význam názvu
       #characteristics.name-meaning
       ==== Téma
+      #characteristics.tema
 
       == Literárněhistorický kontext
       ==== Přiřazení k uměleckému směru, tematickému okruhu, hnutí, skupině + časové vymezení
@@ -76,8 +73,6 @@
       == Kompozice díla 
       ===== _(chronologická, retrospektivní, paralelní, rámcová, řetězová, rozsah díla, kapitoly a jejich označení, návaznost částí, dějství, výstupy, sbírka básní, motto, prolog, doslov atp.)_
       #kompozice
-
-      #colbreak()
 
       == Obsah díla 
       ===== _(zasazení výňatku do kontextu díla, základní dějová linie, zejména zásadní a zlomové situace, závěr, typ a charakteristika básní)_
@@ -103,7 +98,30 @@
       ===== _(pocity, dojmy, názory, myšlenky)_
       #ctenar
     ])
-  )
 }
 
-#work()
+#work(
+  title: "Jméno díla",
+  author: "Autor",
+  year: 2023,
+  characteristics: (
+    obsah: [],
+    utvary: [],
+    name-meaning: [],
+    tema: [],
+  ),
+  literary-context: (
+    umelecke-smer: [],
+    historicke-souvislosti: [],
+    soucasnici: [],
+    dalsi-dila: [],
+    autoruv-zivot: [],
+  ),
+  kompozice: [],
+  obsah-dila: [],
+  postavy: [],
+  vypravecsky-zpusob: [],
+  jazyk-dila: [],
+  ohlas-dila: [],
+  ctenar: [],
+)
