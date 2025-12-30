@@ -30,11 +30,11 @@ jobs:
 
       - uses: typst-community/setup-typst@v4.3.0
 
-      - name: Compile all .typ files from main branch
+      - name: Compile all .typ files from correct branch
         run: |
-          git fetch origin main
+          git fetch origin predefined-template
           mkdir source
-          git --work-tree=source checkout origin/main -- .
+          git --work-tree=source checkout origin/predefined-template -- .
 
           cd source
           find . -name "*.typ" | while read file; do
