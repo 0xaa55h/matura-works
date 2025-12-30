@@ -44,7 +44,6 @@
     historicke-souvislosti: [
       - 19. století v USA bylo obdobím rychlého rozvoje a expanze, což přineslo jak pokrok, tak i sociální napětí.
       - Industrializace a urbanizace vedly k růstu měst a změnám v životním stylu lidí.
-      - Společnost čelila otázkám identity, rasismu a otroctví, které vyvrcholily občanskou válkou (1861-1865).
       - Kulturní scéna byla ovlivněna romantismem, který zdůrazňoval individualismus, emoce a přírodu.
       - Poeho díla často reflektují temné stránky lidské psychiky a společnosti té doby.
     ],
