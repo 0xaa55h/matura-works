@@ -68,26 +68,16 @@
     ],
     autoruv-zivot: [
       - Narodil se: 31. října 1821 v Borové u Havlíčkova Brodu.
-
       - Vzdělání: Studoval gymnázium v Německém Brodě a poté filozofii a práva v Praze. Zajímal se o literaturu, politiku a novinářství.
-
       - Strávil část života v Rusku (byl zastáncem rusofilie díky Janu Kollárovi), kde pracoval jako vychovatel známého ruského profesora.
-
       - Politická činnost: Byl výrazným kritikem absolutismu a rakouské cenzury. Stal se významnou osobností českého národního obrození a boje za svobodu tisku.
-
       - Novinářská činnost: Působil v různých časopisech a vydával vlastní periodika, například Národní noviny. --- Pražské Noviny, Národní noviny, Slovan, Česká včela.
-
       - Dokud byl v česku tak kritizoval díla např. Tyla, která působila egoisticky. Kritika měla úspěch.
-
       - Vyhnanství: Kvůli kritice rakouské vlády a českých poměrů byl v roce 1851 poslán do politického vyhnanství do Brixenu v Tyrolsku. Zde stále vedl Národní noviny.
-
       - *Tyrolské elegie* vznikly během jeho pobytu v Brixenu a reflektují jeho zkušenosti a názory na politickou situaci.
         - Bylo to období, kdy byl Havlíček izolován od Prahy a českého politického života.
         - Dílo je plné satiry a kritiky rakouského režimu, což odráží jeho osobní zkušenosti s útlakem a nesvobodou.
-      
       - Po podepsání smlouvy že se již nebude angažovat ve veřejných aktivitách byl propuštěn z vyhnanství v roce 1854 a vrátil se do Česka. Dokud mu nebyla diagnostikována tuberkulóza, měl zakázáno cestovat do Prahy.
-
-
       - Smrt: Zemřel 29. července 1856 v Praze ve věku 34 let na tuberkulózu.
     ],
   ),
@@ -137,6 +127,8 @@
       - _ekypáž_ -- přepychový kočár tažený koněmi
       - _postiljon_ -- poštovní jezdec nebo doručovatel pošty
     - Použití knižních výrazů, obecné češtiny, historismů, personifikace
+    - Obsahuje ironii, satiru a sarkasmus -- _"Od všech z Vídně pozdravení, pan Bach je líbá!"_
+    - Inverzi, apostrofu, přirovnání, personifikaci, historismy či archaismy
   ],
   ohlas-dila: [
     Dílo by logicky nemohlo vyjít, protože kritizuje rakouský režim. 
