@@ -6,13 +6,13 @@
   year: [1590 -- 1591],
   characteristics: (
     obsah: [
-      Jedná se o drama, konkrétně o tragédii.
+      Jedná se o drama, konkrétně o komedii.
     ],
     utvary: [
       Veršované drama. Použití pětistopého jambického verše (blankverse), který je typický pro Shakespearova dramata.
-      _Pozn: Blankverse se složitě překládá do češtiny, v mnoha místěch není správný překlad aplikovatelný._
+      _Pozn: Blankverse se složitě překládá do češtiny, v mnoha místech není správný překlad aplikovatelný._
 
-      V díle se téže objevuje jak próza, tak i poezie. Často se vyskytují metafory, inverze, a další figury -- vše je typycké pro Shakespearův styl psaní.
+      V díle se téže objevuje jak próza, tak i poezie. Často se vyskytují metafory, inverze, a další figury -- vše je typické pro Shakespearův styl psaní.
     ],
     name-meaning: [
       Název odkazuje na hlavní zápletku díla, kde je "zlá žena" -- Kateřina "zkrocena" svým manželem -- Petrucio.
@@ -30,7 +30,7 @@
 
       Časové vymezení: Konec 16. století (1597). Renesance v anglii: 16. -- začátek 17. století.
 
-      Střídá prózu s verši, psaný Blakveršem (nerýmuje se na konci)
+      Střídá prózu s verši, psaný blankversem (nerýmuje se na konci)
       Hrdinové jsou živoucí a rozporuplné postavy, jsou psychologicky propracované a mohou proto diváky ovlivnit v mnoha různých dobách.
 
     ],
@@ -46,9 +46,6 @@
       - Fracesco Petrarca -- Zpěvník neboli "Sonety Lauře" (zakladatel sonetu)
       - Giovanni Boccaccio -- "Dekameron" (10x10 =100 novel)
       - Francois Villon -- francouzský básník, styl Villónská balada
-
-
-      *Pyramus a Thisbé* (Ovidius) -- dílo, které mělo vliv na tvorbu díla Romeo a Julie. Sdíli rysy: mladí milenci, zákaz vztahu, smrt obou milenců. Liší se v: Pyramus a Thisbé je antický mýtus, stručný příběh. Romeo a Julie je renesanční drama s psychologií postav.
     ],
     autoruv-zivot: [
       William Shakespeare (1564 -- 1616) byl anglický dramatik, básník a herec. Žil v době renesance, což ovlivnilo jeho tvorbu. Narodil se v Stratfordu nad Avonou a později se přestěhoval do Londýna, kde se stal významnou postavou divadelního světa. Neví se jak zemřel, ale jeho díla zanechala trvalý odkaz v literatuře.
@@ -77,11 +74,11 @@
     Jakmile je po svatbě, odveze si jí Petruccio do svého domu. Kvůli tomu, aby ji zkrotil nedává jí žádné jídlo a nutí jí, aby se vším, co řekne, souhlasila, i když to není pravda. Zatím se Blanka tajně provdá za Lucenzia. Po svatbě jdou za otcem Blanky, aby mu řekli, že jsou svoji. Koná se oslava, na kterou přijede i Kateřina se svým mužem Petrucciem. Všichni se podiví, jak se Kateřina změnila, není hubatá a vždy souhlasí se svým mužem.
   ],
   postavy: [
-    - *Petrucio* -- mladý, vtipný, Veronský šlechtic, který se s kamarády vsadil, že zkrotí „saň“ Kateřinu
+    - *Petrucio* -- mladý, vtipný, Veronský šlechtic, který se s kamarády vsadil, že zkrotí „saň“ Kateřinu, ale nakonec se ožení s Kateřinou
     - *Kateřina* -- dcera bohatého padovského šlechtice, které se pro její nezkrotnost a přímost vyhýbali nápadníci  
     - *Blanka* -- mladší vypočítavá dcera, která je rozmazlená a otec nad ní drží ochrannou ruku
     - *Lucentio* -- syn bohatého florentského šlechtice, který přijíždí do Padovy studovat filozofii, ale zamiluje se do Blanky, nakonec se s ní ožení
-    - *Hortensio* -- šlechtic z Padovy, který se uchází o Blanku, ale nakonec se ožení s Kateřinou
+    - *Hortensio* -- šlechtic z Padovy, který se uchází o Blanku
     - *Grumio* -- Petruciův sluha, který je často terčem vtipů a žertů
     - *Baptista* -- bohatý padovský šlechtic, otec Kateřiny a Blanky, který stanoví podmínku, že se Blanka může vdát až poté, co se provdá Kateřina
   ],

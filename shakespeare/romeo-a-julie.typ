@@ -56,13 +56,13 @@
     Dějství se nadále dělí na scény. Prolog v podobě sboru, který shrnuje dílo předem. V. dějství plní funkci epilogu, jako závěr.
   ],
   obsah-dila: [
-    Příběh se odehráva ve Veroně, spor mezi 2 rody -- *Montekové* a *Kapuletové*. U Kapuletů má být ples -- oznámení o zasnoubení Julie s Parisem. Romeo (Montek) hodlá navštívit tentýž ples. Tybalt pozná Romea jako Monteka a chce ho zesměšnit, to se mu nepodaří. Romeo se seznámí s Julií, po konci plesu *balkonová scéna*. Následuje oddání otcem Vavřincem. Tybalt zabije Merkucia (Romeův přítel -- byl vyzván k boji). Julie se má vdávat za Parisa další den, v to nedopustí a vypije nápoj co zajistí že vypadá jako mrtvá. Pohřeb navštíví Romeo(nedorazil posel co má Romeovi říct že je to fake, kvůli moru ve Veroně), kde zabije Parise, vidí mrtvou Julii a vypije jed. Julie se probouzí, zešílí ze smrti Romea, použije jeho dýku k vlastní sebevraždě. Rodiny se kvůli této události usmíří.
+    Příběh se odehráva ve Veroně, spor mezi 2 rody -- *Montekové* a *Kapuletové*. U Kapuletů má být ples -- oznámení o zasnoubení Julie s Parisem. Romeo (Montek) hodlá navštívit tentýž ples. Tybalt pozná Romea jako Monteka a chce ho zesměšnit, to se mu nepodaří. Romeo se seznámí s Julií, po konci plesu *balkonová scéna*. Následuje oddání otcem Vavřincem. Tybalt zabije Merkucia (Romeův přítel -- byl vyzván k boji). Julie se má vdávat za Parisa další den, v to nedopustí a vypije nápoj co zajistí že vypadá jako mrtvá. Pohřeb navštíví Romeo(nedorazil posel co má Romeovi říct že je to fake, kvůli moru ve Veroně), kde zabije Parise, vidí mrtvou Julii a vypije jed. Julie se probouzí, zešílí ze smrti Romea (je zoufalá), použije jeho dýku k vlastní sebevraždě. Rodiny se kvůli této události usmíří.
   ],
   postavy: [
     *Hlavní*
     - Romeo _(Montek)_, Julie _(Kapulet)_ -- osudný pár
     *Vedlejší*
-    - Paris _(Kapulet)_ -- původní manžel Julie
+    - Paris _(Kapulet)_ -- původní snoubenec Julie
     - Montek a Kapulet -- leadeři 2 rodů
     - Tybalt _(Kapulet)_ -- synovec paní Kapuletové
     - Merkucio _(Montek)_ -- Romeův přítel
