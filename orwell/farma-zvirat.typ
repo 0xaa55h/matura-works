@@ -12,7 +12,8 @@
       Antiutopický satirický alegorický román
     ],
     name-meaning: [
-      Jméno reflektuje místo hlavního děje -- farmu se zvířaty
+      Jméno reflektuje místo hlavního děje -- farmu se zvířaty. 
+      Na tento název je také farma přejmenována po revoluci z původního jména pana Jonese.
     ],
     tema: [
       Manipulace, nesvoboda, nenávist, útlak menšin, revoluce. Touto bajkou chtěl autor zdůraznit totalitní systém a politická vývoj v SSSR. V této alegorické bajce se také objevují komunistické rysy (na farmě).
@@ -21,7 +22,7 @@
   literary-context: (
     umelecke-smer: [
       - Alegorie a satira
-      - Dystopický realismus
+      - Dystopický (antiutopický) realismus
 
       Orwell nebyl přímo členem žádného hnutí, byl ale ovlivněn socialistickými a levicovými idejemi, které se odrážejí v jeho dílech, odsuzoval totalitarismus a stalinskou diktaturu.
     ],
