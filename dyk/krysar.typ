@@ -25,6 +25,10 @@
   literary-context: (
     umelecke-smer: [
       Realismus s prvky romantismu, symbolismu a dekadence (Fráňa Šrámek, Petr Bezruč -- protispolečenští buřiči). Dyk používá symboly -- připodobnění, prvky neoromantismu
+
+      - Anarchističtí buřiči byli česká literární skupina a spisovatelé, kteří působili hlavně na přelomu 19. a 20. století. Zaujímali kritický, často provokativní postoj vůči společnosti, konvencím a maloměšťáctví. Jejich tvorba byla výrazně individualistická, často s prvky anarchismu, svobodomyslnosti a revolty proti autoritám.
+
+      - Buřičské hnutí bylo součástí české moderny, zároveň reagovalo na politické napětí a nacionalismus v Rakousko-Uhersku. V poezii a próze se objevují motivy revolty, volnosti, smrti a osamělosti, a také kritika církve, státu a tradičních společenských norem.
     ],
     historicke-souvislosti: [
       - Česká literatura přelomu 19. a 20. století
@@ -41,6 +45,7 @@
       - F. Kafka
       - T. Mann
       - M. Gorkij
+      - G. B. Shaw
     ],
     dalsi-dila: [
       - Milá sedmi loupežníků (poezie)
