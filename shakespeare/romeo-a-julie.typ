@@ -7,12 +7,10 @@
   characteristics: (
     obsah: [
       Jedná se o drama, konkrétně o tragédii.
+      V díle se téže objevuje jak próza, tak i poezie.
     ],
     utvary: [
-      Veršované drama. Použití pětistopého jambického verše (blankverse), který je typický pro Shakespearova dramata.
-      _Pozn: Blankverse se složitě překládá do češtiny, v mnoha místěch není správný překlad aplikovatelný._
-
-      V díle se téže objevuje jak próza, tak i poezie. Často se vyskytují metafory, inverze, a další figury -- vše je typické pro Shakespearův styl psaní.
+      Veršované drama.
     ],
     name-meaning: [
       Dílo nese název podle jmen dvou hlavních postav.
@@ -78,7 +76,7 @@
     V díle se vyskytují i odchylky -- archaismy, hovorové prvky.
     Ty mají odlišit postavy (sociální vrstvy, věk).
 
-    Převážně složené a souvětí -- typické pro dramatickou veršovanou řeč.
+    Převážně složené a souvětí -- typické pro dramatickou veršovanou řeč. Střídání Poezie i prózy v průběhu.
 
     *Tropy* --- metafora (např. "láska je oheň"), personifikace (např. "osud nás vede"). Personifikace -- osud, smrt, čas -- dodává dramatičnost.
   ],
