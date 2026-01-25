@@ -72,7 +72,7 @@ Router(config-line)#
   image("/assets/image.png", width: 50%),
 )
 
-== Typy \*castu Packet Traceru
+== Typy \*castu na síti
 
 - *Broadcast* -- zpráva odeslaná všem zařízením v síti. Zpravidla na adresu FF:FF:FF:FF:FF:FF (MAC) nebo na poslední IPv4 adresu v podsíti (např. 192.168.0.255 pro podsíť /24).
   - Použití: ARP požadavky, DHCP Discover zprávy (pro získání překlad IP adresy na MAC adresu).
@@ -125,6 +125,17 @@ RoutrikUwU# show ip interface brief
 ```
 
 == IPv4 adresace (statická)
+
+=== Výpočet IP adresy a podsítě
+
+- *Co je to IP adresa?* \
+  IP adresa je jedinečný identifikátor zařízení v síti. Skládá se ze čtyř oktetů (8 bitů každý), oddělených tečkami, například:
+  - 192.168.0.10
+  - 192.168.0.1
+  - 192.168.0.255
+- *Co je to maska podsítě?* \
+  Maska podsítě určuje, která část IP adresy představuje síťovou část a která část představuje hostitelskou část. Nejčastěji používané masky jsou:
+  - 255.255.255.0 (/24) -- 256 adres (254 použitelné pro zařízení -- síťová (první) a broadcast (poslední) adresa jsou rezervovány)
 
 === Nastavení statické IP adresy na rozhraní
 
@@ -296,3 +307,6 @@ Switch1(config-if)# switchport trunk encapsulation dot1q
 == WLAN
 
 == Praktické příklady
+
+=== Konfigurace jednoduché sítě s routerem, switchem a dvěma počítači
+=== Konfigurace středně velké sítě s routerem, dvěma switchi a čtyřmi počítači
