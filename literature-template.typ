@@ -34,18 +34,19 @@
   )
   set text(font: "New Computer Modern", size: 8pt)
   show heading.where(level: 1): set text(size: 14pt, weight: "bold")
+  show heading: set block(below: 6pt, above: 6pt)
   show heading.where(level: 2): set text(size: 12pt, weight: "bold", fill: red)
   show heading.where(level: 3): set text(size: 10pt, weight: "bold", fill: red)
   show heading.where(level: 5): set text(size: 8pt, weight: "regular")
 
   columns(2, [
-      = #title
+      #heading(level: 1, [#title])
       *#author* | *#year*
 
       == Charakteristika díla
-      ==== Podle obsahu/formy
+      ==== Podle obsahu/formy (poezie, próza, drama)
       #characteristics.obsah
-      ==== Konkrétní útvary a znaky
+      ==== Konkrétní útvary a znaky (lyrika, epika, drama, útvar)
       #characteristics.utvary
       ==== Význam názvu
       #characteristics.name-meaning
@@ -93,10 +94,6 @@
       == Ohlas díla 
       ===== _(pohled literární kritiky a čtenářů (i v různých dobách, pokud se jedná o dílo starší), (překlady), inspirace pro jiná umělecká zpracování)_
       #ohlas-dila
-
-      == Čtenář 
-      ===== _(pocity, dojmy, názory, myšlenky)_
-      #ctenar
     ])
 }
 
@@ -123,5 +120,4 @@
   vypravecsky-zpusob: [],
   jazyk-dila: [],
   ohlas-dila: [],
-  ctenar: [],
 )

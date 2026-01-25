@@ -21,8 +21,8 @@ jobs:
 
       - name: Set up Git user
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "0xaa55h"
+          git config user.email "janprokupek04@gmail.com"
 
       - name: Switch to orphan branch
         run: |
