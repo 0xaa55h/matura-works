@@ -13,7 +13,7 @@
 
 #align(center, [
   = Cisco Packet Tracer
-  === Příručka k maturitě
+  === Souhrn k maturitě
 ])
 
 #outline(
