@@ -1,6 +1,5 @@
 #set text(font: "New Computer Modern", size: 12pt)
 #set page(
-  height: auto,
   margin: (
     left: 1cm,
     right: 1cm,
@@ -3730,7 +3729,6 @@ Bezdrátový přístup pro mobilní zařízení a notebooky.
 - *Umístění:* Centrálně v kanceláři, eventuálně více AP pro větší pokrytí
 - *Počet:* 1-3 AP v závislosti na velikosti a prostoru
 - *Funkce:* SSID konfigurace, WPA2/WPA3 zabezpečení, PoE napájení
-- *Příklad:* Cisco Meraki MR33, Cisco Catalyst 9130
 
 *2. Přepínač (Switch)*
 
@@ -3740,7 +3738,6 @@ Jádro místní sítě propojující všechna kabelová zařízení.
 - *Porty:* 24-48 Gigabit Ethernet portů + uplinky (SFP)
 - *PoE:* Power over Ethernet pro AP, IP telefony, kamerové systémy
 - *VLAN:* Segmentace sítě (oddělení kancelářských, skladových, serverových sítí)
-- *Příklad:* Cisco Catalyst 2960-X, Cisco Catalyst 3560-X
 
 *3. Směrovač (Router)*
 
@@ -3750,25 +3747,6 @@ Propojuje interní síť s Internetem a poskytuje služby.
 - *Porty:* WAN port (obvykle 1), LAN porty (obvykle 4-8)
 - *Funkce:* NAT, DHCP server, firewall, VPN gateway
 - *ISP připojení:* Ethernet nebo alternativně DSL/4G
-- *Příklad:* Cisco ISR 4321, Cisco Meraki MX64, Juniper SRX220
-
-*4. Firewall (volitelně)*
-
-Pokud je router bez pokročilých bezpečnostních funkcí, samostatný firewall.
-
-- *Umístění:* Mezi routerem a interní sítí
-- *Funkce:* Hlubinská inspekce paketů (DPI), IPS/IDS, URL filtrování, antimalware
-- *Příklad:* Fortinet FortiGate 60F, Palo Alto Networks PA-220
-
-*5. NAS nebo File Server*
-
-Centralizované úložiště dat, zálohy.
-
-- *Typ:* NAS (Network Attached Storage) pro malé firmy
-- *Kapacita:* 2-8 TB (4-8 drive NAS)
-- *Síť:* 1 Gbps Ethernet, ideálně na samostatné VLAN
-- *Funkce:* RAID (redundantní diskové pole), automatické zálohy, sdílení souborů (SMB/CIFS)
-- *Příklad:* Synology DS418+, QNAP TS-432PX
 
 *6. Server nebo Mikropočítač (pro služby)*
 
@@ -3786,23 +3764,6 @@ Telefonie přes IP síť.
 - *Komunikace:* SIP (Session Initiation Protocol), Cisco Unified Communications
 - *Funkce:* Interní volání, připojení k telekomunikačnímu operátorovi
 - *Příklad:* Cisco IP Phone 7841, Avaya 9608G
-
-*8. IP Kamera*
-
-Bezpečnostní dohled přes síť.
-
-- *Typ:* Ethernet kamera (fixed, PTZ)
-- *Napájení:* PoE (Power over Ethernet)
-- *Úložiště:* NVR (Network Video Recorder) nebo cloudový server
-- *Příklad:* Cisco Meraki MV12, Hikvision DS-2CD2143G0-I
-
-*9. Tiskárna (Network Printer)*
-
-Sdílená tiskárna připojená do sítě.
-
-- *Připojení:* Ethernet (Gigabit)
-- *Funkce:* Tisk, skenování, kopírování (MFP -- Multi-Function Printer)
-- *Správa:* Web rozhraní pro konfiguraci, účtování za tisk
 
 *Topologie propojení v malé síti:*
 
@@ -3859,7 +3820,7 @@ Při výběru zařízení pro malou síť je třeba zvážit několik faktorů:
 
 *2. Počet uživatelů a zařízení*
 
-- *Skaling:* Zařízení by mělo podpořit očekávaný růst bez rychlé zastaralosti
+- *Scaling:* Zařízení by mělo podpořit očekávaný růst bez rychlé zastaralosti
 - *Příklad:* Switch s 24 porty pro malou firmu, s volnými porty pro budoucí rozšíření
 - *VLAN schopnost:* Switch musí podporovat VLAN pro segmentaci
 
@@ -3873,7 +3834,6 @@ Při výběru zařízení pro malou síť je třeba zvážit několik faktorů:
 
 - *Redundance:* Zvážit redundantní routery, uplinky
 - *Zálohování:* NAS s RAID pro ochranu dat
-- *Support:* Hardware warranty, 24/7 technická podpora
 
 *5. Správa a administrace*
 
@@ -3889,31 +3849,10 @@ Při výběru zařízení pro malou síť je třeba zvážit několik faktorů:
 - *Kryptografie:* WPA3 pro wireless, AES šifrování
 - *Compliance:* Soulad s GDPR, HIPAA (pokud relevantní)
 
-*7. Kompatibilita a integrace*
-
-- *Správa zařízení:* Všechna zařízení od jednoho výrobce zjednodušuje správu
-- *API:* Možnost integrace s ostatními systémy
-- *Skalabilita:* Možnost přidání nových zařízení bez velké restrukturalizace
-
 *8. Energetická spotřeba*
 
-- *Provozní náklady:* Nižší spotřeba = nižší elektrikáčské náklady
+- *Provozní náklady:* Nižší spotřeba = nižší elektrické náklady
 - *PoE:* Efektivní napájení zařízení Ethernet kabelem
-
-*Srovnání populárních řešení pro malé sítě:*
-
-#table(
-  columns: (1fr, 1fr, 1fr, 1fr),
-  align: left,
-  [*Vlastnost*], [*Cisco Small Business*], [*Ubiquiti UniFi*], [*Meraki (Cloud)*],
-  [*Cena*], [Střední], [Nízká], [Vyšší (měsíční)],
-  [*Správa*], [Web GUI], [Cloud kontrolér], [Cloud dashboad],
-  [*Redundance*], [Omezená], [Ano], [Ano],
-  [*Podpora*], [Premium], [Komunita], [Enterprise],
-  [*PoE*], [Ano], [Ano], [Ano],
-  [*Škálovatelnost*], [Do 100+ zařízení], [Do 500+ zařízení], [Neomezená],
-  [*Best for*], [Mid-range SMB], [Začínající SMB], [Enterprise SMB],
-)
 
 == Adresace pro malou firmu
 
@@ -4217,44 +4156,6 @@ Překlad doménových jmen na IP adresy.
 - *Interní DNS:* Pro intranet (www.example.local, mail.example.local)
 - *Externí DNS:* Veřejné domény (www.example.com, gmail.com)
 
-*Konfigurace DNS na linuxovém serveru:*
-
-```bash
-# /etc/hosts -- místní překlad
-127.0.0.1   localhost
-192.168.1.100   nas.example.local
-192.168.1.101   server.example.local
-192.168.1.110   pbx.example.local
-
-# /etc/resolv.conf -- forwardery
-nameserver 8.8.8.8
-nameserver 8.8.4.4
-```
-
-*3. NTP (Network Time Protocol)*
-
-Synchronizace času mezi zařízeními.
-
-- *Důvod:* Correktní timestamp v logech, bezpečnostní certifikáty, Kerberos autentizace
-- *Server:* NTP server (veřejné NTP servery dostupné online)
-
-*Konfigurace na Cisco routeru:*
-
-```
-Router(config)# ntp server 0.uk.pool.ntp.org
-Router(config)# ntp server 1.uk.pool.ntp.org
-Router(config)# clock timezone CET 1
-Router(config)# clock summer-time CEST recurring
-```
-
-*4. Syslog*
-
-Centralizované logování všech zařízení (routery, switche, servery).
-
-- *Syslog server:* Linux/Windows aplikace (Splunk, ELK Stack, Graylog)
-- *Výhoda:* Snadnější audit a troubleshooting
-- *Kapacita:* Může uložit terabajty logovacích dat
-
 *Konfigurace:*
 
 ```
@@ -4399,69 +4300,6 @@ Streamování videa pro tréninky, firemní kanály apod.
 - *Monitorování bandwidth:* SNMP, NetFlow monitoring
 - *Nástroje:* Cisco AppDynamics, Cisco DNA Assurance
 
-== Růst malé sítě
-
-*1. Fáze 1: Do 50 zaměstnanců*
-
-Jednoduchá síť bez redundance.
-
-```
-Topologie:
-Internet -- ISP modem -- Router/Firewall -- Switch -- PC, Printer, NAS
-                                              |
-                                           Access Point
-```
-
-- *Hardware:* 1 router, 1 switch (24 portů), 1 AP, 1 NAS
-- *Administrátor:* 1 osoba (part-time)
-- *Bezpečnost:* Základní firewall, WPA2 pro WiFi
-
-*2. Fáze 2: 50-100 zaměstnanců*
-
-Růst ke správě sítě, přidání služeb.
-
-```
-Topologie:
-ISP1 -- Router1 ----+---- Switch1 -- Servers/Storage
-                     |
-                  Switch2 -- PCs/Printers
-                     |
-                   AP1-2
-```
-
-- *Hardware:* 2 routery (redundance), 2 switche (kvůli počtu zařízení), 2-3 AP, Server/NAS
-- *Služby:* Active Directory, DHCP server, DNS, mail server
-- *Bezpečnost:* Firewall s IDS/IPS, VPN pro remote access
-- *Administrátor:* 1-2 osoby
-
-*3. Fáze 3: 100-200 zaměstnanců*
-
-Komplexní síť s redundancí a vyšší dostupností.
-
-```
-Topologie:
-ISP1 --+-- Router1 (Active/Standby HSRP)
-       |      |
-       +-- Router2 (Active/Standby HSRP)
-              |
-         Datacenter
-          /   |   \
-      Switch1-2-3 (Stacked, redundantní)
-         |     |     |
-      VLANs: Office, Servers, VoIP, Security, Guest
-```
-
-- *Hardware:* Redundantní routery (HSRP), stackované switche (200+ portů), 4-6 AP, multiple servery (VM clustering)
-- *Služby:* Advanced firewall, VPN, QoS, Video konference, VoIP
-- *Bezpečnost:* Next-generation firewall, IPS/IDS, DLP (Data Loss Prevention), endpoint security
-- *Administrátor:* 2-3 osoby specialisty
-
-*4. Plánování budoucího růstu*
-
-- *Nadimenzionování:* Koupit zařízení s 30% nadbytem kapacity
-- *Modulární architektura:* Virtualizace serverů (VMware, Hyper-V)
-- *Cloud migrace:* Postupný přechod na cloud služby (AWS, Azure, Google Cloud)
-- *Cloud backup:* Cloudové zálohy jako redundance proti lokálním ztrátám
 
 == Zabezpečení malé sítě
 
