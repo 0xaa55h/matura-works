@@ -67,7 +67,7 @@ _Do českých zařazujeme autory 3. fáze národního obrození._
 _(1. světová válka)_
 - *Erich Maria Remarque* -- Na západní frontě klid
 - *Ernest Hemingway* -- Sbohem armádo/Stařec a moře
-- *A. S. Exupéry* -- Malý princ
+- *H. Barbusse* -- Oheň
 
 _Do českých zařazujeme autory, kteří žili v období 1. světové války._
 - *Karel Čapek* -- R.U.R., Válka s mloky
@@ -76,12 +76,12 @@ _Do českých zařazujeme autory, kteří žili v období 1. světové války._
 
 = George Orwell
 
-_(2. světová válka)_
+_(Okolo 2. světové války)_
 - *Zamjatin* -- My
 - *Aldous Huxley* -- Konec civilizace
 - *Ray Bradbury* -- 451 stupňů Fahrenheita
 
 _Do českých zařazujeme autory, kteří žili v období 2. světové války._
-- *Vítězslav Nezval* -- Edison
-- *Franz Kafka* -- Proměna, Proces
-- *Jaroslav Seifert* -- Na vlnách TSF
+- *Karel Čapek* -- Matka
+- *Vladislav Vančura* -- Rozmarné léto
+- *Karel Poláček* -- Bylo nás pět

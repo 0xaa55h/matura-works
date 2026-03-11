@@ -185,7 +185,7 @@ U nás se projevila zejména v 16. století.
 
 == Charakteristika
 
-- Májovci (1858 -- 1870): skupina básníků a spisovatelů, kteří se inspirovali romantismem a usilovali o obnovu české literatury. Název odvozen od časopisu "Máj".
+- Májovci (1858 -- 1870): skupina bá  sníků a spisovatelů, kteří se inspirovali romantismem a usilovali o obnovu české literatury. Název odvozen od časopisu "Máj".
 - Ruchovci (1868 -- 1890): národně orientovaná skupina, která kladla důraz na českou historii, tradice a lidovou kulturu. Název odvozen od almanachu "Ruch".
 - Lumírovci (1868 -- 1890): skupina spisovatelů, kteří se inspirovali evropskou literaturou a usilovali o modernizaci české literatury. Název odvozen od časopisu "Lumír".
 
@@ -265,6 +265,41 @@ U nás se projevila zejména v 16. století.
   - Ernest Hemingway: "Stařec a moře"
 - *Německo*
   - Thomas Mann: "Buddenbrookovi", "Kouzelný vrch"
+
+= Devětsil (1920 -- 1930)
+
+== Charakteristika
+
+- Skupina českých avantgardních umělců, kteří se zaměřovali na experimentování s formou a obsahem
+- Vznikl v Praze v roce 1920, název odvozen od květiny devětsil
+- Členové se věnovali různým uměleckým disciplínám, včetně literatury, výtvarného umění, divadla a filmu
+- Důraz na kolektivní tvorbu a spolupráci mezi umělci
+- Vznikl pod vlivem futurismu, dadaismu a surrealismu
+
+Dělí se na dvě skupiny:
+- *Poetismus* -- zaměřen na radost ze života, hravost a fantazii
+- *Konstruktivismus* -- zaměřen na stroje, technologii a moderní život
+
+== Významní autoři a díla
+
+- *Karel Teige*: teoretik a kritik, "Abeceda"
+- *Vítězslav Nezval*: "Edison", "Pantomima"
+- *S. K. Neumann*: "Nové zpěvy"
+- *Toyen*: výtvarnice, surrealistka
+
+= Skupina 42 (1942 -- 1950)
+
+== Charakteristika
+
+- Skupina českých umělců, kteří se zaměřovali na realistické zobrazení městského života a každodenních situací
+- Vznikla v Praze v roce 1942, název odvozen od adresy, kde se členové scházeli (42. ulice)
+- Důraz na sociální a politické otázky, zejména v kontextu druhé světové války a poválečného období
+- Vznikl pod vlivem realismu a expresionismu
+
+== Významní autoři a díla
+
+- *Ivan Blatný*: "Melancholické procházky", "Stará bydliště"
+- *Jiří Kolář*: "Prométheova játra", "Křest svatého Vladimíra"
 
 = Literatura po roce 1945
 
