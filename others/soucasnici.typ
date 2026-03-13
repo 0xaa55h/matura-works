@@ -41,7 +41,7 @@ _Do českých zařazujeme autory 2 - 3. fáze národního obrození._
 = Karel Havlíček Borovský
 
 _(Realismus)_
-- *Honoré de Balzac* -- Lidská komedie
+- *Honoré de Balzac* -- Otec Goriot, Lidská komedie
 - *Gustave Flaubert* -- Paní Bovaryová
 - *Charles Dickens* -- Oliver Twist, David Copperfield
 
@@ -53,7 +53,7 @@ _Do českých zařazujeme autory 3. fáze národního obrození._
 = Božena Němcová
 
 _(Realismus)_
-- *Honoré de Balzac* -- Lidská komedie
+- *Honoré de Balzac* -- Otec Goriot, Lidská komedie
 - *Gustave Flaubert* -- Paní Bovaryová
 - *Charles Dickens* -- Oliver Twist, David Copperfield
 

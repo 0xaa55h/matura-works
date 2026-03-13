@@ -12,7 +12,7 @@
       Antiutopický satirický alegorický román
     ],
     name-meaning: [
-      Jméno reflektuje místo hlavního děje -- farmu se zvířaty. 
+      Jméno reflektuje místo hlavního děje -- farmu se zvířaty.
       Na tento název je také farma přejmenována po revoluci z původního jména pana Jonese.
     ],
     tema: [
@@ -36,11 +36,15 @@
       - *Zamjatinovo* dílo *My* (1924) -- jedno z prvních děl dystopické literatury, které ovlivnilo Orwella při psaní jeho vlastních děl
     ],
     soucasnici: [
-      - Isaac Asimov -- Já, robot
-      - Arthur C. Clarke -- Vesmírná odysea
-      - Robert A. Heinlein -- Hvězdná pěchota
-      - Ray Bradbury -- sb. Marťanská kronika
-      - Karel Čapek -- R.U.R., Ze života hmyzu (podobné téma)
+      _(Okolo 2. světové války)_
+      - *Zamjatin* -- My
+      - *Aldous Huxley* -- Konec civilizace
+      - *Ray Bradbury* -- 451 stupňů Fahrenheita
+
+      _Do českých zařazujeme autory, kteří žili v období 2. světové války._
+      - *Karel Čapek* -- Matka
+      - *Vladislav Vančura* -- Rozmarné léto
+      - *Karel Poláček* -- Bylo nás pět
     ],
     dalsi-dila: [
       - *1984* -- další slavné dílo od Orwella, které se zabývá totalitním režimem a sledováním jednotlivců
@@ -48,10 +52,10 @@
       - *Na dně v Paříži a Londýně* -- zážitky z dob, kdy byl Orwell tulákem
     ],
     autoruv-zivot: [
-      *George Orwell*, vlastním jménem *Eric Arthur Blair* (1903-1950), byl britský spisovatel, novinář a kritik totalitarismu. Narodil se v Indii, ale většinu svého života strávil ve Velké Británii. Orwell sloužil jako policista v Barmě, což ovlivnilo jeho pohled na imperialismus a sociální spravedlnost. 
+      *George Orwell*, vlastním jménem *Eric Arthur Blair* (1903-1950), byl britský spisovatel, novinář a kritik totalitarismu. Narodil se v Indii, ale většinu svého života strávil ve Velké Británii. Orwell sloužil jako policista v Barmě, což ovlivnilo jeho pohled na imperialismus a sociální spravedlnost.
 
       Po roce 1936 se Orwell jako dobrovolník zapojil do španělské občanské války.
-      
+
       Byl známý svými levicovými názory, ale zároveň kritizoval totalitní režimy, což se odráží v jeho dílech, zejména ve *Farmě zvířat* a *1984*. Orwell zemřel na tuberkulózu ve věku 46 let.
     ],
   ),
@@ -63,9 +67,9 @@
   ],
   obsah-dila: [
     Dílo vypráví o docela normální farmě, zvířata na ní netrpí zimou ale trpí hladem, pan Jones propíjel peníze a svůj část trávil v hospodě -- nestaral se o ně dobře a často neměla dost jídla.
-    
-    Začne je štvát, že musí sloužit lidem, chtějí pracovat jen sami pro sebe (myšlenka Majora kterou sdílí, Major krátce na to zemře na stáří). Vzbudí se revoluce, která je úspěšná. Po vyhnání lidí se farma přejmenuje na „Zvířecí farmu“ a jsou ustanovena pravidla (Sedm přikázání), která nesmí být překročena. Zvířata začnou znovu pracovat, ale díky pocitu svobody tentokrát mnohem výkonněji. V čele jsou dvě prasata (Kuliš a Napoleon), která se pořád hádají. Když jedno podá návrh, druhé ho zamítne, v lepším případě podá jiný návrh. Napoleon vyhnal chudáka Kuliše a poslal na něj divoké psy, které si sám vychoval. Postupně vraždí i ostatní zvířata. Napovídal jim totiž, že za tu dobu zapomněla Sedm přikázání. 
-    
+
+    Začne je štvát, že musí sloužit lidem, chtějí pracovat jen sami pro sebe (myšlenka Majora kterou sdílí, Major krátce na to zemře na stáří). Vzbudí se revoluce, která je úspěšná. Po vyhnání lidí se farma přejmenuje na „Zvířecí farmu“ a jsou ustanovena pravidla (Sedm přikázání), která nesmí být překročena. Zvířata začnou znovu pracovat, ale díky pocitu svobody tentokrát mnohem výkonněji. V čele jsou dvě prasata (Kuliš a Napoleon), která se pořád hádají. Když jedno podá návrh, druhé ho zamítne, v lepším případě podá jiný návrh. Napoleon vyhnal chudáka Kuliše a poslal na něj divoké psy, které si sám vychoval. Postupně vraždí i ostatní zvířata. Napovídal jim totiž, že za tu dobu zapomněla Sedm přikázání.
+
     Nejpracovitější zvířátko je Boxer, který se ale předře a je odvezen na jatka. Napoleon si vychoval další prasata k obrazu svému a ty začínají vládnout celé farmě. Začnou spolupracovat zpátky s lidmi a přejmenují farmu zpět na Panskou. S lidmi popíjejí a hrají karty. Ostatní zvířata je od sebe nedokážou rozeznat. Prasata totiž vypadají jako lidé.
 
     *Důležité events v ději:*
@@ -115,14 +119,10 @@
     - Vyskytují se: metafory -- psi jako tajná policie, kůň jako dříč, ovce jako nepřemýšlející maso, prasata jako nejchytřejší zvířat
   ],
   ohlas-dila: [
-
     V době vydání nebyla kniha příliš oblíbená a své docenění získala až o pár let později. V současnosti je považována za klasiku satirické literatury a často se studuje na školách. Dílo bylo adaptováno do různých forem, včetně filmů a divadelních her.
 
     V komunistickém Československu byl na seznamu zakázaných autorů, jeho knihy nemohly oficiálně vycházet. Orwellovy knihy v češtině tou dobou vycházely v exilových nakladatelstvích.
 
     Dílo je VELICE aktuální obzvláště v kontextu politických režimů, manipulace s informacemi a boje za svobodu. Orwellova kritika totalitarismu a varování před zneužitím moci rezonují i v dnešní době.
-  ],
-  ctenar: [
-    Velice aktuální dílo v této době. Osobně jsem si ho velice užil a líbíla se mi spousta alegorických prvků a narážek na reálné historické události. Doporučuji všem, kteří mají rádi satiru a politickou tematiku.
-  ],
+  ]
 )

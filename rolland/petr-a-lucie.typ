@@ -15,44 +15,39 @@
       Jména hlavních postav
     ],
     tema: [
-      Příběh o dvou mladých lidech, kteří k sobě vzpláli láskou, avšak v nesprávnou dobu.
-      Motivy: láska, mládí, válka, protválečná tématika.
+      - Příběh o dvou mladých lidech, kteří k sobě vzpláli láskou, avšak v nesprávnou dobu.
+      - Nenaplněná láska, která je zničena válkou.
+      - Antimilitarismus, kritika války a jejího nesmyslného ničení lidských životů.
+      - Vitalismus, oslava života a lásky i v těžkých časech.
     ],
   ),
   literary-context: (
     umelecke-smer: [
       Světová literatura 1. pol. 20. stol., která trvala do roku 1945. Literatura se tehdy dělila na tradiční (zde patří i ztracená generace) a experimentální, začala se udělovat NC za literaturu.
 
-      - _proud realistický_ -- autoři se vrací k realismu, používají klasické umělecké prostředky, dochází k zaměření se na psychický a citový život jedince (autoři ztracené generace)
-      - _proud experimentální_ -- experimentace ve způsobu vyprávění, s jazykem, ubývá dějovosti, složitá symbolika, prvky absurdity, čtenář si musí dost sám domýšlet, konfrontace vnitřního světa s okolím (Kafka). Představitelé: 
-        - Marcel Proust (Hledání ztraceného času -- román) 
-        - James Joyce (Odysseus)		
-        - Virginie Woolfová (K majáku, Orlando)
-      - _proud překračující tabu_ -- zobrazovaly se erotické náměty, sex a homosexualita vznikají nová uskupení a hnutí (PEN klub), spisovatele spojuje i rozděluje světový i politický názor, především důležitý postoj k válkám, náboženství, fašismu, demokracii, komunismu, nacismu.
+      - *Humanismus*: Toto je hlavní "směr" Rollandova srdce. Věří v hodnotu člověka, lidskost a bratrství. Petr a Lucie je protestem proti tomu, jak válka tyto hodnoty ničí.
+      - *Pacifismus*: Nejde jen o politický postoj, ale o umělecký záměr. Autor ukazuje nesmyslnost zabíjení a staví do kontrastu čistou lásku dvou mladých lidí proti špíně a krutosti fronty.
+      - *Realismus* s prvky impresionismu: Rolland velmi realisticky popisuje atmosféru válečné Paříže (nálety, strach v metru). Zároveň však používá jemné, téměř impresionistické popisy citů a nálad hlavních hrdinů -- jejich láska je jako křehký obraz uprostřed chaosu.
+      - *Antika* (Osudovost): Příběh má strukturu antické tragédie. Od začátku tušíme, že hrdinové nemohou uniknout. Smrt v kostele pod padajícím pilířem je symbolickým vyvrcholením tohoto "osudu".
     ],
     historicke-souvislosti: [
-      *Realismus* -- snaží se zachytit skutečnost, kritizuje společnost, maloměšťáctví, sociální problémy a moc peněz.
-      - Realismus odvozen od slova reálný (realis) = skutečný, opravdový 
-      - Realistický hrdina je typický člověk žijící v té době. 
-      - Typizace -- Na jednotlivém je zobrazeno obecné. 
-      - Vznik ve Francii, nejvíce se rozvinul v Rusku 
-      - Nově se uplatňují hovorové výrazy, archaismy, dialekty 
-      - *Honoré de Balzac* je zakladatelem realismu. 
-      Objevuje se v literatuře od 2 poloviny 19. Století. - *Flaubert* -- autor románu Paní Bovaryová
-
       *Ztracená generace* -- označení pro spisovatele, kteří zažili 1. světovou válku a byli zklamáni společností, do které se vrátili. Patří sem *Ernest Hemingway, F. S. Fitzgerald, John Dos Passos, Gertrude Steinová*.
 
       *1. světová válka* (1914-1918) -- konflikt mezi dvěma vojenskými bloky: Trojspolek (Německo, Rakousko-Uhersko, Itálie) a Trojdohoda (Velká Británie, Francie, Rusko). Válka byla vyvolána atentátem na rakouského arcivévodu Františka Ferdinanda d'Este v Sarajevu. Válka skončila porážkou centrálních mocností a vedla k významným politickým změnám v Evropě.
     ],
     soucasnici: [
-      - *Ernest Hemingway* -- americký spisovatel, zakladatel tzv. ztracené generace. Mezi jeho nejznámější díla patří romány *Sbohem armádo* a *Stařec a moře*. Nositel Pulitzerovy a Nobelovy ceny za literaturu. Poslední léta svého života strávil v Ketchumu v Idahu, kde spáchal sebevraždu.
-      - *E. M. Remarque* -- německý spisovatel, jehož nejznámějším dílem je protivojenský román *Na západní frontě klid*. Román popisuje hrůzy 1. světové války z pohledu mladého německého vojáka. Dílo bylo zakázáno nacisty a Remarque emigroval do USA, kde pokračoval v psaní dalších románů s válečnou tematikou, jako například *Na západní frontě klid*, *Cesta zpátky* a *Tři kamarádi* (_Díla na sebe myšlenkově navazjí, avšak to NENÍ trilogie_).
-      - *A. de Saint Exupéry* -- francouzský spisovatel a letec, autor slavné pohádky *Malý princ*. Ve svých dílech často reflektoval lidskou existenci, morální hodnoty a smysl života. Během 2. světové války sloužil jako pilot a jeho zážitky z války se promítly do jeho literární tvorby, například v románu *Noční let*.
-      - *G. B. Shaw* -- irský dramatik a kritik, nositel Nobelovy ceny za literaturu. Jeho díla často obsahují sociální kritiku a satiru. Mezi jeho nejznámější hry patří *Pygmalion*, která byla později adaptována do muzikálu *My Fair Lady*. Shaw byl také známý svými kontroverzními názory na společnost, politiku a náboženství.
-      - *Jaroslav Hašek* -- český spisovatel, humorista a satirik, nejvíce známý pro svůj román *Osudy dobrého vojáka Švejka za světové války*. Dílo je satirickým pohledem na absurditu války a byrokracie, a stalo se jedním z nejvýznamnějších děl české literatury 20. století.
+      _(1. světová válka)_
+      - *Erich Maria Remarque* -- Na západní frontě klid; patřil do ztracené generace.
+      - *Ernest Hemingway* -- Sbohem armádo/Stařec a moře; patřil do ztracené generace.
+      - *H. Barbusse* -- Oheň
+      
+      _Do českých zařazujeme autory, kteří žili v období 1. světové války._
+      - *Karel Čapek* -- R.U.R., Válka s mloky
+      - *Fráňa Šrámek* -- Stříbrný vítr
+      - *Jaroslav Hašek* -- Osudy dobrého vojáka Švejka za světové války
     ],
     dalsi-dila: [
-      - *Jan Kryštof* -- román o deseti dílech, rozvržen do čtyř částí. Líčí život Jana Kryštofa, slavného německého hudebníka. V základních rysech tohoto románu je patrná inspirace Beethovenem, jsou ovšem vmíseny i motivy ze života jiných skladatelů. Román je srovnáván s Hugovými Bídníky nebo Tolstého Vojnou a mírem. Za toto dílo dostal autor Nobelovu cenu.
+      - *Jan Kryštof* -- román o deseti dílech, rozvržen do čtyř částí. Líčí život Jana Kryštofa, slavného německého hudebníka. V základních rysech tohoto románu je patrná inspirace Beethovenem, jsou ovšem vmíseny i motivy ze života jiných skladatelů. Román je srovnáván s Hugovými Bídníky nebo Tolstého Vojnou a mírem. *Za toto dílo dostal autor Nobelovu cenu*.
       - *Okouzelná duše* -- druhý autorův rozsáhlý románový cyklus. Román zrcadlí historický vývoj francouzské a evropské společnosti na počátku 20. století a v době nástupu fašismu v Itálii. Dobrý člověk ještě žije - svérázný historický román odehrávající se v Burgundsku za vlády Ludvíka XIII. Ústřední myšlenkou je, že hrdina dokáže žít šťastně i v nešťastných poměrech.
       - Napsal také řadu dramatických děl, esejů a studií o hudbě.
     ],
@@ -74,10 +69,10 @@
     - Děj se odehrává v krátkém časovém úseku (od 30. ledna do 29. března 1918)
     - Kapitoly nejsou číslovány ani pojmenovány
     - Dílo se odehrává převážně v Paříži během 1. světové války
+    - Uzavřený tragický konec
+    - Kontrast mezi krásou lásky a hrůzou války
   ],
   obsah-dila: [
-    Je nutno podotknout, že Petr a Lucie je protiválečnou novelou. Děj příběhu se odehrává ve velmi krátkém časovém úseku, od 30. ledna do 29. března 1918.
-
     Osmnáctiletý Petr Aubier vyrůstá v měšťanské rodině. Jeho otec je soudce a jeho starší bratr (Filip) se před několika lety dobrovolně přihlásil do války. Petr musí za půl roku nastoupit do války, kterou nedokáže pochopit a smířit se s tím. A tak celé dny bloumá po Paříži a přemýšlí nad nesmyslností války a smyslu života.
 
     Vše začíná v prostoru podzemní dráhy metra při náletech na Paříž. Zde se poprvé setkává Petr s Lucií. Aniž by se znali, při této děsivé události se do sebe na první pohled zamilují. Lucie však beze slov odchází. O pár dní později se znovu potkávají, ale opět spolu nepromluví ani slovo, pouze se na sebe usmívají. Když se setkávají potřetí, Petr se rozhodne Lucii oslovit. Společně potom usedají na lavičku ke kašně a povídají si. Z tohoto setkání se stává zvyk.

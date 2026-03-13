@@ -7,6 +7,7 @@
     top: 1cm,
     bottom: 1cm,
   ),
+  numbering: "1"
 )
 #import "@preview/zebraw:0.6.1": *
 #show: zebraw
@@ -181,8 +182,8 @@ _Poznámka: Dnes už křížené kabely díky funkci Auto-MDIX (automatická det
 - *STP* -- Kroucené páry s celkovým stíněním, lepší ochrana proti EMI.
 - *FTP* -- Kroucené páry s fóliovým stíněním, často používané v průmyslových aplikacích.
 - *SFTP* -- Kombinace fóliového stínění a opletení, poskytuje nejlepší ochranu proti rušení.
-- *Postfix -e* označuje vylepšenou verzi (např. Cat 5e -- enhanced)
-- *Postfix -a* označuje "augmented" (vylepšenou) verzi (např. Cat 6a -- augmented).
+- *Postfix -e* označuje vylepšenou verzi (např. Cat 5e -- enhanced) -- zlepšení propustnosti.
+- *Postfix -a* označuje "augmented" (vylepšenou) verzi (např. Cat 6a -- augmented) -- navýšení max. vzdálenosti.
 
 
 == Negativní vlivy a eliminace rušení

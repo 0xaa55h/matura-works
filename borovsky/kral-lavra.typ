@@ -37,14 +37,15 @@
       - 1849 -- 1859 -- Bachův absolutismus (vláda Františka Josefa I.) (represe, cenzura, útlak národních hnutí)
     ],
     soucasnici: [
-      *Česká literatura*
-      - Božena Němcová: Divá Bára (povídka), Babička (obrazy venkovského života, národní tradice)
-      - Karel Jaromír Erben: Kytice (sbírka balad s tematikou lidových pověstí a morálních ponaučení)
-      - Karel Hynek Mácha: Máj (romantická báseň o lásce, osudu a přírodě)
-      - Josef Kajetán Tyl: Fidlovačka (divadelní hra, národní písně, _Kde domov můj_)
-      *Světová literatura*
-      - Edgar Allan Poe: Havran (temná báseň o ztrátě a smutku)
-      - Victor Hugo: Bídníci (román o sociální nespravedlnosti a lidské důstojnosti)
+      _(Realismus)_
+      - *Honoré de Balzac* -- Otec Goriot, Lidská komedie
+      - *Gustave Flaubert* -- Paní Bovaryová
+      - *Charles Dickens* -- Oliver Twist, David Copperfield
+
+      _Do českých zařazujeme autory 3. fáze národního obrození._
+      - *Karel Hynek Mácha* -- Máj
+      - *Karel Jaromír Erben* -- Kytice
+      - *Božena Němcová* -- Babička
     ],
     dalsi-dila: [
       - Tyrolské elegie -- lyricko-epická satirická báseň popisující autorovu cestu do Brixenu, kde byl vězněn.
@@ -73,14 +74,14 @@
     - Verše jsou polorýmované (někde se rýmují, někde ne) -- ABCBDDB
   ],
   obsah-dila: [
-    Král Lávra je dobromyslný a poddanými oblíbený irský král s jedinou špatnou vlastností - každý rok se nechá pouze jednou ostříhat a svého holiče potom nechá pověsti. Nikdo neví, proč to král dělá, a jinak velmi oblíbenému panovníkovi je to ostře vytýkáno. 
-    
-    Jednou je za královského lazebníka vybrán Kukulín, syn dobré vdovy.Vdova se za svého jediného syna postaví a přemlouvá krále, aby ho nenechal popravit. Dobrosrdečný Lávra souhlasí a ustanoví Kukulína svým osobním holičem pod podmínkou, že nikomu neprozradí to, co pokaždé, když Lávru stříhá, vidí na královské hlavě. Kukulína ale tajemství pálí, a tak ho pošeptá alespoň do dutiny staré vrby. Naneštěstí si z této vrby vyrobí smyčec jeden muzikant, jenž hraje na zámku u krále Lávry. 
-    
+    Král Lávra je dobromyslný a poddanými oblíbený irský král s jedinou špatnou vlastností - každý rok se nechá pouze jednou ostříhat a svého holiče potom nechá pověsti. Nikdo neví, proč to král dělá, a jinak velmi oblíbenému panovníkovi je to ostře vytýkáno.
+
+    Jednou je za královského lazebníka vybrán Kukulín, syn dobré vdovy.Vdova se za svého jediného syna postaví a přemlouvá krále, aby ho nenechal popravit. Dobrosrdečný Lávra souhlasí a ustanoví Kukulína svým osobním holičem pod podmínkou, že nikomu neprozradí to, co pokaždé, když Lávru stříhá, vidí na královské hlavě. Kukulína ale tajemství pálí, a tak ho pošeptá alespoň do dutiny staré vrby. Naneštěstí si z této vrby vyrobí smyčec jeden muzikant, jenž hraje na zámku u krále Lávry.
+
     Při plese zpívající basa vyzradí, že Lávra pod vlasy skrývá oslí uši. Nejprve je z toho velké pozdvižení, ale pak si poddaní uvědomí, že je to jediná vada, a není zase tak hrozná, a tak Lávra od té doby může nosit své oslí uši beze studu viditelně a veřejně.
   ],
   postavy: [
-    - *Král Lávra* -- Starý dobrý král, lidé ho měli rádi, byl moudrý a oblíbený, rovněž přihlouplý.       
+    - *Král Lávra* -- Starý dobrý král, lidé ho měli rádi, byl moudrý a oblíbený, rovněž přihlouplý.
     - *Kukulín* -- Holič, utrápený s potřebou se svěřit, syn vdovy
     - *Poustevníček* -- Osoba žijící v lese, pomáhá lidem
     - *Vdova* -- Matka Kukulína, stará žena, která žije v chudobě

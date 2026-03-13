@@ -25,26 +25,29 @@
       *Realismus* -- snaha o věrné a objektivní zobrazení skutečnosti, zaměření na každodenní život obyčejných lidí, kritika společnosti a sociálních nerovností. V české literatuře (Němcová, Čelakovský, Jirásek).
       - Realismus je nástupce romantismu, který se zaměřuje na city a individualismus. Romantismus se zde však nikdy plně nerozvinul. Jediným autorem pravým byl Karel Hynek Mácha.
       - Střídají se s národním obrozením (3. fáze vrcholná) a končí na přelomu 19. a 20. století.
+      *Venkovská literatura* -- zaměření na život na venkově, zobrazení venkovských postav a prostředí, často s idealizací nebo kritickým pohledem. V české literatuře (Němcová, Světlá).
     ],
     historicke-souvislosti: [
       *Národní obrození (3. fáze vrcholná)*
       - vnik 1. politického programu, vyučování v češtině na školách. Romantismus v literatuře (Tyl, Erben), počátky realismu (Němcová, Borovský).
-      *Romantismus* -- v souvislosti s NO
+      *Konec Romantismu* -- v souvislosti s NO
       - zdůraznění citů, individualismu, přírody, minulosti, národních tradic. V české literatuře (Mácha, Erben, Tyl).
       - Nevyvinul se plynule (protože cílem jsou city, nikoliv výchova, jež jsme se snažili docílit vlivem Národního Obrození), omezený počet autorů.
       - Přechod k realismu v polovině 19. století (Němcová, Borovský).
+
       - 1849 -- 1859 -- Bachův absolutismus (vláda Františka Josefa I.) (represe, cenzura, útlak národních hnutí)
+      - 1848 -- revoluce v Evropě (sociální a politické změny, národní hnutí, požadavky na svobodu a demokracii) (v Čechách neúspěšná, ale posílila národní uvědomění) (Němcová se aktivně zapojila do NO)
     ],
     soucasnici: [
-      *Česká literatura*
-      - Karel Jaromír Erben: Kytice (sbírka balad s tematikou lidových pověstí a morálních ponaučení)
-      - Karel Havlíček Borovský: Král Lávra (satirická báseň kritizující absolutistickou monarchii), Tyrolské elegie (lyricko-epická báseň)
-      - Karel Hynek Mácha: Máj (romantická báseň o lásce, osudu a přírodě)
-      - Josef Kajetán Tyl: Fidlovačka (divadelní hra, národní písně, _Kde domov můj_)
-      - Božena Němcová: Babička (obrazy venkovského života, národní tradice)
-      *Světová literatura*
-      - Charles Dickens: Oliver Twist (román o osudech osiřelého chlapce v londýnských chudinských čtvrtích)
-      - Gustave Flaubert: Paní Bovaryová (román kritizující společenské konvence a idealizaci lásky)
+      _(Realismus)_
+      - *Honoré de Balzac* -- Otec Goriot, Lidská komedie
+      - *Gustave Flaubert* -- Paní Bovaryová
+      - *Charles Dickens* -- Oliver Twist, David Copperfield
+
+      _Do českých zařazujeme autory 3. fáze národního obrození._
+      - *Karel Hynek Mácha* -- Máj
+      - *Karel Jaromír Erben* -- Kytice
+      - *Karel Havlíček Borovský* -- Křest svatého Vladimíra/Tyrolské elegie
     ],
     dalsi-dila: [
       - Babička -- obraz venkovského života, národní tradice
@@ -54,7 +57,7 @@
       - Národní báchorky a pověsti -- sbírka lidových příběhů a pověstí (pohádka)
     ],
     autoruv-zivot: [
-      - Dívčím jménem Barbora Panklová, se narodila ve Vídni 4. února 1820 v rodině panského kočího Johanna Pankla, rakouského Němce. 
+      - Dívčím jménem Barbora Panklová, se narodila ve Vídni 4. února 1820 v rodině panského kočího Johanna Pankla, rakouského Němce.
       - Její matka Terezie Novotná byla Češka a ve Vídni sloužila. Jako malé dítě se Němcová přestěhovala s rodiči na panství vévodkyně Zaháňské do Ratibořic u České Skalice.
       - Na vytváření základů osobnosti Boženy Němcové měla zásadní blahodárný vliv babička z matčiny strany Magdaléna Novotná, tkadlena z Náchodska, která ji vychovávala za pobytu u své dcery v Ratibořicích.
       - Němcová chodila do školy ve Skalici a ve Chvalkovicích
@@ -73,9 +76,9 @@
   obsah-dila: [
     Bára žila se svým otcem Jakubem, který byl obecním pastýřem. Žili na kraji vesnice Vestec bez maminky. Když byla Bára ještě maličká (v kolébce), maminka Báry se něčeho velmi polekala a zůstala v mdlobách ležet na zemi. Pověrčiví sousedé prohlásili, že dům navštívila polednice. Od té doby maminka byla nemocná a po několika letech zemřela a tak pastýř Báru vychovával sám.
 
-    Odmalička byla Bára jiná než ostatní děvčata. Nebála se bouřky, uměla plavat a měla obrovskou sílu, byla opálená od sluníčka i ošlehaná od větru, ráda chodila bosa. Lidé si o ní začali povídat, že ji podstrčila do kolébky divá žena a začali se jí vyhýbat. Jediné přítelkyně Báry byly Elška z fary (nejdůvěrnější kamarádka) a jejich teta, panna Pepinka, která našla Elšce ženicha -- správce sousedního panství. 
-    
-    Toho však Elška nechtěla. Bára se proto rozhodla, že Elšce pomůže a věděla, že se správce v noci bojí, a tak se převlékla za strašidlo a u hřbitova jej vyděsila. Její přestrojení však bylo odhaleno a Báře byl uložen krutý trest -- musela přespat na hřbitově v kostnici. Ráno ke hřbitovu přišel myslivec a dozvěděl se, co se Báře stalo. Myslivec se Báře přiznal, že ji miluje, a požádal ji o ruku. Bára se tak ze hřbitova vrátila šťastná, se svým budoucím mužem. Potrestaná, jak si lidé přáli, rozhodně nebyla, spíše naopak. Elška si pak také vzala doktora, kterého milovala a Josífek, který Báru miloval, se nakonec stal farářem. 
+    Odmalička byla Bára jiná než ostatní děvčata. Nebála se bouřky, uměla plavat a měla obrovskou sílu, byla opálená od sluníčka i ošlehaná od větru, ráda chodila bosa. Lidé si o ní začali povídat, že ji podstrčila do kolébky divá žena a začali se jí vyhýbat. Jediné přítelkyně Báry byly Elška z fary (nejdůvěrnější kamarádka) a jejich teta, panna Pepinka, která našla Elšce ženicha -- správce sousedního panství.
+
+    Toho však Elška nechtěla. Bára se proto rozhodla, že Elšce pomůže a věděla, že se správce v noci bojí, a tak se převlékla za strašidlo a u hřbitova jej vyděsila. Její přestrojení však bylo odhaleno a Báře byl uložen krutý trest -- musela přespat na hřbitově v kostnici. Ráno ke hřbitovu přišel myslivec a dozvěděl se, co se Báře stalo. Myslivec se Báře přiznal, že ji miluje, a požádal ji o ruku. Bára se tak ze hřbitova vrátila šťastná, se svým budoucím mužem. Potrestaná, jak si lidé přáli, rozhodně nebyla, spíše naopak. Elška si pak také vzala doktora, kterého milovala a Josífek, který Báru miloval, se nakonec stal farářem.
 
     - Lze srovnat s _Křížem u potoka_ -- Karolína Světlá
     - Společné znaky:

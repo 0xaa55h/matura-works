@@ -10,22 +10,6 @@
     ],
     utvary: [
       Lyricko-epická báseň označená jako elegie, avšak s výrazným satirickým podtextem.
-
-      #quote(block: true, [
-        _
-        Bach mi píše jako doktor, \
-        že mi nesvědčí \
-        v Čechách zdraví, že prej potřebuju \
-        změnu povětří. \
-        _
-        
-        _
-        Že je v Čechách tuze dušno, \
-        horké výpary, \
-        mnoho smradu po té oktrojírce, \
-        holé nezdraví!_
-      ]) -- Z ukázky je patrný satirický tón díla, kdy si autor dělá legraci z
-      Bachaových doporučení ohledně jeho zdraví.
     ],
     name-meaning: [
       Název odkazuje na místo, kam je lyrický subjekt umístěn -- Tyrolsko (Brixen), kde byl autor vězněn.
@@ -33,6 +17,7 @@
     ],
     tema: [
       Kritika rakouského (Bachova) absolutismu, cenzury, nesvobody, politického útlaku a obecně poměrů v Rakouském císařství.
+      *Satira = kritika humorem.*
     ],
   ),
   literary-context: (
@@ -52,14 +37,15 @@
       - 1849 -- 1859 -- Bachův absolutismus (vláda Františka Josefa I.) (represe, cenzura, útlak národních hnutí)
     ],
     soucasnici: [
-      *Česká literatura*
-      - Božena Němcová: Divá Bára (povídka), Babička (obrazy venkovského života, národní tradice)
-      - Karel Jaromír Erben: Kytice (sbírka balad s tematikou lidových pověstí a morálních ponaučení)
-      - Karel Hynek Mácha: Máj (romantická báseň o lásce, osudu a přírodě)
-      - Josef Kajetán Tyl: Fidlovačka (divadelní hra, národní písně, _Kde domov můj_)
-      *Světová literatura*
-      - Edgar Allan Poe: Havran (temná báseň o ztrátě a smutku)
-      - Victor Hugo: Bídníci (román o sociální nespravedlnosti a lidské důstojnosti)
+      _(Realismus)_
+      - *Honoré de Balzac* -- Otec Goriot, Lidská komedie
+      - *Gustave Flaubert* -- Paní Bovaryová
+      - *Charles Dickens* -- Oliver Twist, David Copperfield
+
+      _Do českých zařazujeme autory 3. fáze národního obrození._
+      - *Karel Hynek Mácha* -- Máj
+      - *Karel Jaromír Erben* -- Kytice
+      - *Božena Němcová* -- Babička
     ],
     dalsi-dila: [
       - Král Lávra -- satirická alegorická báseň kritizující rakouský režim končící ponaučením.
@@ -95,7 +81,7 @@
   obsah-dila: [
     Tato satirická báseň o devíti zpěvech vypráví pravdivý příběh K.H.Borovského o jeho deportaci do Brixenu. Dílo je psáno jako monolog vypravěče obracejícího se k měsíci jako adresátovi.
 
-    Jednou pro něj v noci poslali kočár s policajty. Vzbudil ho četník a předal mu vzkaz od pana Bacha. Stálo tam, že potřebuje změnu povětří, a proto pro něj poslal kočár. Nemohl tedy odmítnout a i proto, že měl četník za rozkaz ho přemluvit. 
+    Jednou pro něj v noci poslali kočár s policajty. Vzbudil ho četník a předal mu vzkaz od pana Bacha. Stálo tam, že potřebuje změnu povětří, a proto pro něj poslal kočár. Nemohl tedy odmítnout a i proto, že měl četník za rozkaz ho přemluvit.
 
     Dedera, který řídil jeho převoz, mu pravil, ať s sebou nebere zbraně a ať jde inkognito (na tajno). Oblékl se a šel ven. Venku už stáli připravení koně a četníci. Rozloučil se s rodinou a jel.
 
@@ -131,7 +117,7 @@
     - Inverzi, apostrofu, přirovnání, personifikaci, historismy či archaismy
   ],
   ohlas-dila: [
-    Dílo by logicky nemohlo vyjít, protože kritizuje rakouský režim. 
+    Dílo by logicky nemohlo vyjít, protože kritizuje rakouský režim.
     Bylo však vydáno až po autorově smrti (a po pádu Bachova režimu v roce 1859) v roce 1861 v časopise _Čas_ a v _Obrazech života_.
 
     Skladba vycházela také s ilustracemi Mikoláše Alše či Josefa Lady.
@@ -140,7 +126,7 @@
   ],
   ctenar: [
     viz #link("https://zsjesenice.cz/files/vyukove-materialy/cj/literatura/8/dejiny-literatury/havlicek-borovsky-tyrolske-elegie.pdf") [
-      Tyrolské elegie s relevantními otázkami
+    Tyrolské elegie s relevantními otázkami
     ]
   ],
 )
