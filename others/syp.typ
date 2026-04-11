@@ -83,6 +83,7 @@ Průchod vrstvami (Sestupný směr):
 - *Vrstva síťového rozhraní*:
   - Ethernet: Nejpoužívanější standard pro LAN sítě (definuje přístup k médiu CSMA/CD, formát rámců).
 
+#pagebreak()
 = Fyzická vrstva, přenosová média a jejich vlastnosti
 
 Fyzická vrstva (Layer 1) modelu ISO/OSI je zodpovědná za přenos surových bitů přes komunikační kanál. Tato otázka se zaměřuje na fyzické vlastnosti médií, jejich limity a odolnost vůči vnějšímu prostředí.
@@ -218,6 +219,10 @@ Rozptyl světelného pulzu v čase.
 
 Duplex určuje, jakým způsobem probíhá obousměrná komunikace mezi dvěma body.
 
+=== Simplex
+
+Komunikace probíhá pouze jedním směrem (např. vysílání z TV vysílače). Není možné přijímat data zpět.
+
 === Poloduplex (Half-Duplex)
 
 Komunikace může probíhat pouze jedním směrem v daném okamžiku (např. vysílání nebo přijímání, ale ne obojí současně). Vyžaduje použití protokolu CSMA/CD (na data-linkové vrstvě) pro řešení kolizí.
@@ -230,6 +235,7 @@ _Poznámka: Propojením half-duplex a full-duplex dojde k duplex mismatch, což 
 
 _Poznámka 2: V rámci TCP/IP modelu se o duplexu rozhoduje během procesu Auto-negotiation. Ten probíhá hned po připojení kabelu (L1 aktivita), ale výsledek přímo ovlivní chování Ethernetových rámců (L2 aktivita)._
 
+#pagebreak()
 = Data-linková vrstva, Ethernet a základní funkce a konfigurace switche
 
 Data-linková vrstva (2. vrstva OSI) je kritickým mostem mezi fyzickými signály a logickým adresováním.
@@ -297,6 +303,34 @@ V přepínaných sítích často chceme redundanci (záložní spoje). Pokud ale
 + Nadbytečné (redundantní) cesty se logicky zablokují (porty jsou v módu Blocking).
 + Při výpadku aktivní trasy STP automaticky odblokuje záložní spoj.
 
+== Základní konfigurace switche
+
+```
+Switch> enable                          # Přechod do privilegovaného režimu
+Switch# configure terminal              # Vstup do globální konfigurace
+Switch(config)#
+Switch(config)# hostname SW-Main        # Změna názvu
+SW-Main(config)# enable secret cisco123 # Šifrované heslo pro 'enable'
+SW-Main(config)# service password-encryption # Zašifruje ostatní hesla v konfigu
+# Zabezpečení konzolového portu
+SW-Main(config)# line con 0
+SW-Main(config-line)# password heslo_konzole
+SW-Main(config-line)# login
+SW-Main(config-line)# exit
+
+# Zabezpečení vzdáleného přístupu (SSH/Telnet)
+SW-Main(config)# line vty 0 15
+SW-Main(config-line)# password heslo_vzdalene
+SW-Main(config-line)# login
+SW-Main(config-line)# exit
+# Uložení konfigurace
+SW-Main# copy running-config startup-config
+# Užitečné příkazy pro kontrolu
+show ip interface brief
+show vlan brief
+show running-config
+```
+#pagebreak()
 = Síťová vrstva, ARP, Základní konfigurace routeru
 
 Síťová vrstva je 3. vrstvou modelu OSI. Jejím hlavním úkolem je směrování (routing) -- tedy doručení paketu ze zdroje do cíle přes různé sítě.
@@ -385,7 +419,7 @@ Pro uložení změn do startup-config: `copy running-config startup-config` nebo
 - `show ip route`: Zobrazí směrovací tabulku routeru.
 - `ping <IP_adresa>`: Ověření dosažitelnosti cílové IP adresy.
 - `traceroute <IP_adresa>`: Zobrazí cestu, kterou paket putuje k cíli, a identifikuje případné problémy na trase.
-
+#pagebreak()
 = IPv4 a IPv6 adresace, podsítě
 
 == IPv4 vs IPv6
@@ -491,6 +525,7 @@ Proč síť nekontrolovaně nezvětšovat, ale dělit?
 + *Efektivita*: Lepší využití adresního prostoru (neplýtváme velkými bloky adres pro pár počítačů).
 + *Organizace*: Snadnější správa a řešení problémů.
 
+#pagebreak()
 = Transportní a aplikační vrstva, ICMP
 
 Jejím úkolem je zajistit přenos dat mezi dvěma koncovými procesy (aplikacemi). Neřeší cestu sítí, ale zajišťuje, aby data došla v pořádku a ve správném pořadí.
@@ -567,7 +602,7 @@ ICMP je často blokováno firewally.
 Proč? Protože útočníci ho dříve zneužívali k útokům typu ICMP Flood (DDoS), kdy zahltili síť obrovským množstvím pingů, nebo k tzv. ICMP tunneling, kdy se snažili propašovat data skrz firewally, které ICMP nekontrolovaly.
 
 Důsledek: Když ti nefunguje ping na nějaký server, neznamená to nutně, že server nefunguje. Může mít prostě jen zakázané odpovídat na ICMP zprávy z bezpečnostních důvodů.
-
+#pagebreak()
 = VLAN, Inter-VLAN routing
 
 == Proč používat VLAN (Virtual Local Area Network)
@@ -634,7 +669,7 @@ Ether-channel je technologie, která umožňuje spojit více fyzických spojů d
   - *LACP (Link Aggregation Control Protocol)*: Standardizovaný protokol (IEEE 802.3ad), který umožňuje interoperabilitu mezi různými výrobci.
     - Režimy: Passive (pasivní), Active (aktivní).
 - `show etherchannel summary`: Příkaz pro zobrazení stavu etherchannelu na Cisco zařízení.
-
+#pagebreak()
 = WLAN koncept, konfigurace
 
 WLAN nahrazuje (nebo doplňuje) fyzickou kabeláž elektromagnetickým vlněním.
@@ -694,5 +729,82 @@ Tipy pro maturitu -- jak to "prodat":
 - Kritika "Security through obscurity": Pokud se tě zeptají na skrytí SSID nebo filtrování MAC adres, řekni narovinu: "To není zabezpečení, to je pouze zakrytí viditelnosti. MAC adresu lze snadno odchytit pomocí snifferu (např. Wireshark/Aircrack-ng) a zfalšovat."
 - Propojení s reálným světem: "V dnešní době je WPA3 standardem, ale v praxi stále narážíme na zařízení, která ho nepodporují (IoT senzory, starší tiskárny), proto se často v podnicích provozují oddělené sítě pro různě zabezpečená zařízení."
 
+#pagebreak()
 = Koncept směrování, statické směrování
 
+= Návrh malé sítě, bezpečnost
+= Přehled operačních systémů
+= Disky, RAID
+= Virtualizace
+
+Virtualizace je software, který umožňuje běh více operačních systémů (hostů) na jednom fyzickém hardwaru (hostiteli). Hypervizor je klíčovým prvkem virtualizace, který spravuje a koordinuje tyto virtuální stroje.
+
+== Základní pojmy
+
+- *Hostitel (Host)*: Fyzický počítač, na kterém běží hypervizor a virtuální stroje.
+- *Host (Guest)*: Virtuální stroj, který běží na hostiteli. Může mít vlastní operační systém a aplikace.
+- *Hypervizor (Virtual Machine Monitor)*: Software, který umožňuje vytvářet a spravovat virtuální stroje.
+- *Hostovaný systém (Guest)*: Operační systém běžící uvnitř virtuálního stroje.
+
+== Hypervizor
+
+Hypervizor (Virtual Machine Monitor) je software, který umožňuje vytvářet a spravovat virtuální stroje. Existují dva hlavní typy hypervizorů:
+- *Type 1 (Bare-metal)*: Běží přímo na hardwaru bez potřeby hostitelského operačního systému. Příklady: VMware ESXi, Microsoft Hyper-V, Xen.
+- *Type 2 (Hosted)*: Běží jako aplikace na hostitelském operačním systému. Příklady: Oracle VirtualBox, VMware Workstation, Parallels Desktop.
+
+#figure(image("/assets/image-4.png", width: 60%), caption: [Typy hypervizorů])
+
+== Typy virtualizací
+
+#figure(image("/assets/image-3.png", width: 60%), caption: [Taxonomie virtualizace])
+
+=== Emulace/Emulátor
+
+Emulace umožňuje běh softwaru určeného pro jinou platformu (např. emulátor Androidu na PC). Emulátor simuluje celý hardware, což je velmi náročné na výkon. Simuluje celkovou instrukční sadu a periferie, což umožňuje spouštět software bez úprav, ale s výrazným výkonovým overheadem. Příklady: QEMU, Bochs, Dolphin, emulátory konzolí (NES, SNES, PlayStation).
+
+=== Plná virtualizace
+
+Plná virtualizace umožňuje běh neznalých hostů (bez úprav) na standardním hardwaru. Hypervizor simuluje celý hardware, lže ale hostovanému systému o daném hardwaru (např. místo skutečného CPU prezentuje virtuální CPU). Výkon je lepší než u emulace, ale stále existuje určitý overhead kvůli nutnosti překládat instrukce. Příklady: VMware Workstation, Oracle VirtualBox.
+
+Musí používat stejnou instrukční sadu jako hostitel (např. x86 na x86). Pokud hostitel podporuje virtualizaci na úrovni CPU (Intel VT-x, AMD-V), může výrazně zlepšit výkon.
+
+=== Paravirtualizace
+
+Paravirtualizace vyžaduje úpravy hostovaného operačního systému, aby byl "virtualizačně přátelský". Hostovaný systém je informován o tom, že běží ve virtualizovaném prostředí, a může přímo komunikovat s kernelovými funkcemi hypervizoru, což snižuje overhead a zvyšuje výkon. Příklady: Xen (paravirtualizace), KVM (může fungovat jako paravirtualizace s VirtIO).
+
+=== Kontejnerizace
+
+Virtualizuje se fyzický server na úrovni OS, což umožňuje běh více izolovaných bezpečných virtuálních serverů na jednom fyzickém serveru. Prostředí hostovaného OS sdílejí jeden OS s hostitelským systémem -- tj. stejné jádro OS je použito pro implementaci hostovaného OS. Aplikace běžící v hostovaném prostředí jej však vnímají jako samostatný systém. Mezi příklady patří LXC, Docker, Kubernetes (orchestrace kontejnerů).
+
+=== Aplikační virtualizace
+
+Desktopové nebo serverové aplikace běžící na daném stroji, používají místní zdroje, ale běží ve zvláštním virtuálním stroji. To je rozdíl oproti tradičnímu lokálnímu běhu nativních aplikací, tj. softwaru nainstalovaném přímo na systému. Taková aplikace běží v malém virtuálním prostředí obsahujícím komponenty nutné ke spuštění -- např. položky registrů, soubory, proměnné prostředí, prvky uživatelského rozhraní a globální objekty. Toto virtuální prostředí se chová jako vrstva mezi aplikací a operačním systémem, která zabraňuje konfliktům mezi aplikací a OS nebo mezi aplikacemi vzájemně. Příklady zahrnují Java Virtual Machine.
+
+=== Ostatní typy virtualizací
+
+- *Storage Virtualization*: Abstrakce fyzických úložišť do jednoho logického úložiště (např. SAN, NAS, RAID).
+- *Network Virtualization*: Abstrakce fyzických sítí do jedné logické sítě (např. VLAN).
+
+== Pros/Cons virtualizace
+
+=== Výhody
+
+- *Efektivní využití hardwaru* (Konsolidace): Většina serverů bez virtualizace využívá jen 5-15 % svého výkonu. Díky virtualizaci můžete na jednom fyzickém stroji spustit desítky virtuálních, čímž hardware vytížíte smysluplně.
+- *Vysoká dostupnost (HA) a migrace*: Moderní hypervisory umožňují přesunout běžící virtuální stroj z jednoho fyzického serveru na druhý bez výpadku (Live Migration). Pokud se jeden fyzický server porouchá, virtuály se automaticky restartují na jiném.
+- *Izolace a testování*: Každý virtuální stroj je uzavřený box. Pokud v jednom zavirujete systém nebo shodíte databázi, ostatní stroje na stejném hardwaru to neovlivní. Skvělé jsou také snapshoty -- před riskantní aktualizací si uděláte "fotku" systému a v případě chyby se k ní za vteřinu vrátíte.
+- *Snadná správa a škálování*: Vytvořit nový server je otázkou kliknutí (šablony). Pokud virtuální stroj potřebuje víc RAM, prostě mu ji v nastavení přidáte (často i za běhu).
+
+=== Nevýhody
+
+- *Režie výkonu (Overhead)*: Hypervisor sám o sobě spotřebovává část výkonu CPU a RAM. I když je u moderní virtualizace tato ztráta minimální (cca 2-5 %), pro extrémně náročné výpočty nebo real-time systémy je stále lepší "čisté železo" (Bare Metal).
+- *Vysoká koncentrace rizika* (Single Point of Failure): Když se vám porouchá jeden fyzický server, na kterém běží 30 virtuálních strojů, spadne vám 30 služeb najednou. To vyžaduje investice do zálohování a clusterování.
+
+= Instalace a konfigurace síťových služeb
+= Přehled Linuxových distribucí
+= Přehled souborových systémů pro Linux
+= Správa diskových oddílů pomocí diskového manageru
+= Zabezpečení MS Windows, záloha a obnovení nainstalovaného systému
+= Šifrování dat
+= Hashování
+= Bezpečnost webových aplikací
+= Sociální inženýrství a sociální aspekty kybernetické bezpečnosti

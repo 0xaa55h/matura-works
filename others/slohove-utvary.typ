@@ -1,19 +1,12 @@
-#set text(font: "New Computer Modern", size: 12pt)
 #set page(
-  margin: (
-    left: 1cm,
-    right: 1cm,
-    top: 1cm,
-    bottom: 1cm,
-  ),
+  margin: 0.5cm,
 )
 
 #align(center, [
   = Slohové útvary
-  === Souhrn k maturitě
 ])
 
-*Pozor! Od MZ v roce 2026 na SPŠT je minimální rozsah slohové práce #underline([300 slov]). Navýšení dokáže to ztížit některé útvary!*
+#set text(font: "New Computer Modern", size: 10pt)
 
 #set heading(numbering: "1.1")
 
@@ -75,3 +68,13 @@ Struktura:
 + Závěr: Shrňte, co bylo dosaženo, a případně přidejte tipy na úspěšné dokončení postupu nebo na co si dát pozor.
 
 Zní to docela hard na 300 slov ngl.
+
+= Charakteristika
+
+Charakteristika je slohový útvar, který se zaměřuje na *detailní popis* a *analýzu* určité osoby, postavy, zvířete nebo věci. Jeho hlavním cílem je poskytnout čtenáři hlubší porozumění a vhled do charakteru, vlastností a chování dané entity. Charakteristika může být založena na skutečných osobách nebo může být zcela fiktivní.
+
+Jak na to:
+- Zaměř se na klíčové vlastnosti a rysy, které definují charakterizovanou osobu nebo věc. Můžeš se zaměřit na fyzické vlastnosti, osobnostní rysy, chování, motivace a vztahy s ostatními.
+- Používej konkrétní příklady a situace, které ilustrují charakterizované vlastnosti a chování. To pomůže čtenáři lépe pochopit a představit si charakterizovanou entitu.
+- Nezapomeň na strukturu charakteristiky -- může být prostorová (popisujeme odshora dolů, zleva doprava), časová (popisujeme události v pořadí, jak se staly) nebo logická (popisujeme podle důležitosti), tak abys neskákal z místa na místo.
+- *Prvně vnější charakteristika (fyzický popis), potom vnitřní charakteristika (osobnostní rysy, motivace, chování).*
